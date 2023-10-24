@@ -326,25 +326,6 @@ public class TampilanGUI extends javax.swing.JFrame {
         jTextFieldnamakaprodi.setText(namaKaprodi);
     }//GEN-LAST:event_jTableProdiMouseClicked
 
-    private void jButtonCetakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCetakActionPerformed
-        // TODO add your handling code here:
-        try {
-            Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5433/TugasPBO", "postgres", "pipit1702");
-
-            //File jasperFile = new File("src/pbopertemuan6/mahasiswa.jasper");
-            // JasperPrint jp = JasperFillManager.fillReport(jasperFile.getPath(), null, conn);
-            String jrxmlFile = new String("src/latihandb/reportProdi.jrxml");
-
-            JasperReport jr = JasperCompileManager.compileReport(jrxmlFile);
-            JasperPrint jp = JasperFillManager.fillReport(jr, null, conn);
-            JasperViewer.viewReport(jp, false);
-        } catch (JRException ex) {
-            Logger.getLogger(TampilanGUI.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (SQLException ex) {
-            Logger.getLogger(TampilanGUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }//GEN-LAST:event_jButtonCetakActionPerformed
-
     /**
      * @param args the command line arguments
      */
