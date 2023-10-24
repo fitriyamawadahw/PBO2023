@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="83d9681b-5c35-4173-865d-7dd6f0000455">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM program_studi]]>
+	</queryString>
+	<field name="kode_prodi" class="java.lang.String"/>
+	<field name="nama_prodi" class="java.lang.String"/>
+	<field name="jenjang" class="java.lang.String"/>
+	<field name="nama_kaprodi" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="63" splitType="Stretch">
+			<image>
+				<reportElement x="-82" y="-378" width="736" height="441" uuid="3f7794ae-b406-4e69-9e10-a3231e314220"/>
+				<imageExpression><![CDATA["C:\\Users\\Fitriyah\\Downloads\\unnamed.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="142" y="0" width="320" height="36" uuid="fc016128-9f2d-4f97-acb2-721e621c5e43"/>
+				<textElement>
+					<font size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATA PROGRAM STUDI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="474" y="36" width="100" height="20" uuid="222fae0a-c85f-4508-b9dd-5c185fa925e5"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tahun 2023]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="33" splitType="Stretch">
+			<staticText>
+				<reportElement x="26" y="13" width="100" height="20" uuid="b08608c3-4a41-48fc-bbbb-dd350fa7c16b"/>
+				<textElement>
+					<font size="10" isBold="true" isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[KODE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="174" y="13" width="100" height="20" uuid="68bfc8bd-07f2-4cd2-a00f-805e4a3cf006"/>
+				<textElement>
+					<font size="10" isBold="true" isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[NAMA PRODI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="313" y="13" width="100" height="20" uuid="f136b5d5-be95-4cb1-b131-157da1dbf417"/>
+				<textElement>
+					<font size="10" isBold="true" isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[JENJANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="451" y="13" width="100" height="20" uuid="c843798b-8a2f-424f-9017-1ccf392c210e"/>
+				<textElement>
+					<font size="10" isBold="true" isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[KAPRODI]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="23" splitType="Stretch">
+			<textField>
+				<reportElement x="26" y="0" width="100" height="20" uuid="92d13f34-db02-4cef-8a98-39d69140559e"/>
+				<textFieldExpression><![CDATA[$F{kode_prodi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="174" y="0" width="100" height="20" uuid="56c20c64-4cbd-45c4-b8f0-067a2a5fd984"/>
+				<textFieldExpression><![CDATA[$F{nama_prodi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="0" width="100" height="20" uuid="5bd5ac44-224b-4a0b-8752-050b96e99ef3"/>
+				<textFieldExpression><![CDATA[$F{jenjang}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="451" y="0" width="100" height="20" uuid="9e29ba6d-7c31-4998-9816-b64e8bbd8854"/>
+				<textFieldExpression><![CDATA[$F{nama_kaprodi}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="39" splitType="Stretch">
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="10" y="19" width="100" height="20" uuid="a51ff795-126a-4979-b8a9-19aeff3039a9"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="507" y="19" width="100" height="20" uuid="5c9397af-41fd-4cdc-bec5-5ac473559b40"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
