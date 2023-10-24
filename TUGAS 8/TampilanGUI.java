@@ -415,48 +415,6 @@ public class TampilanGUI extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jTable1MouseClicked
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
-
-       JFileChooser filechooser = new JFileChooser();
-
-                int i = filechooser.showOpenDialog(null);
-                if (i == JFileChooser.APPROVE_OPTION) {
-                    
-                    EntityManager entityManager = Persistence.createEntityManagerFactory("UTSPBOFitriyaPU").createEntityManager();
-                    entityManager.getTransaction().begin();
-
-                    
-                    File f = filechooser.getSelectedFile();
-                    String filepath = f.getPath();
-                    String fi = f.getName();
-                    //Parsing CSV Data
-                    System.out.print(filepath);
-                    DefaultTableModel csv_data = new DefaultTableModel();
-
-                    try {
-
-                        InputStreamReader inputStreamReader = new InputStreamReader(new FileInputStream(filepath));
-                        org.apache.commons.csv.CSVParser csvParser = CSVFormat.DEFAULT.parse(inputStreamReader);
-                        for (CSVRecord csvRecord : csvParser) {
-
-                        DataBuku b = new DataBuku();
-                        b.setIsbn(csvRecord.get(0));
-                        b.setJudul(csvRecord.get(1));
-                        b.setTahun(csvRecord.get(2));
-                        b.setPenerbit(csvRecord.get(3));
-                        entityManager.persist(b);
-                        
-                        }
-                        
-                    } catch (Exception ex) {
-                        System.out.println("Error in Parsing CSV File");
-                    }
-                    
-                    entityManager.getTransaction().commit();
-                }
-
-    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
