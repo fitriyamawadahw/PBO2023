@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0b780746-fca9-4315-97bc-1d8fbeaeffce">
+	<queryString language="SQL">
+		<![CDATA[select * from data_buku]]>
+	</queryString>
+	<field name="isbn" class="java.lang.String"/>
+	<field name="judul" class="java.lang.String"/>
+	<field name="tahun" class="java.lang.String"/>
+	<field name="penerbit" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="143" y="10" width="247" height="53" uuid="9915b324-627b-4ae4-add2-538320da5804"/>
+				<textElement>
+					<font fontName="Arial Black" size="36"/>
+				</textElement>
+				<text><![CDATA[DATA BUKU]]></text>
+			</staticText>
+			<image>
+				<reportElement x="18" y="0" width="100" height="79" uuid="8334e9f6-66e2-437e-80f1-aee728fb8c0a"/>
+				<imageExpression><![CDATA["C:\\Users\\Fitriyah\\OneDrive\\Dokumen\\NetBeansProjects\\UTSPBOFitriya\\src\\utspbofitriya\\buku.jpg"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="455" y="0" width="125" height="79" uuid="b76ce2b9-6072-49da-b2b5-a47c111cf880"/>
+				<imageExpression><![CDATA["C:\\Users\\Fitriyah\\OneDrive\\Dokumen\\NetBeansProjects\\UTSPBOFitriya\\src\\utspbofitriya\\buku2.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="25" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="20" uuid="a0a6d19c-eca9-4ba8-83c7-77993786a535"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[ISBN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="156" y="0" width="100" height="20" uuid="1c82f1a1-bc32-4650-b7bd-2ca7c0b0c67e"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[JUDUL BUKU]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="306" y="0" width="100" height="20" uuid="a45e502e-0554-4209-b017-592b56831f39"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[TAHUN TERBIT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="0" width="100" height="20" uuid="28f574fc-a56f-4063-9359-162e52cfc34a"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[PENERBIT]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="38" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="20" uuid="9ef95292-67c9-4cb7-b118-a9361b4d059a"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{isbn}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="156" y="0" width="100" height="20" uuid="a62e1c50-8347-449e-9bd7-725e5e7008e0"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{judul}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="306" y="0" width="100" height="20" uuid="3417cbce-b4ab-4f2c-bb15-dd2eca0ac6ba"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{tahun}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="455" y="0" width="100" height="20" uuid="ea31f86e-1821-4684-aa4b-a41d06b2124d"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{penerbit}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="33" splitType="Stretch">
+			<textField pattern="dd/MM/yyyy h.mm a">
+				<reportElement x="0" y="0" width="100" height="20" uuid="bfcb3141-2ead-489f-9cc7-915b10ebdc86"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="455" y="0" width="100" height="20" uuid="a1ace85c-3188-46de-bfcc-0d20d244ed7c"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
