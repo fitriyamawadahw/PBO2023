@@ -12,7 +12,7 @@ https://www.petanikode.com/java-oop-interface/
 2.  Kedua, buat kelas turunan dari Orang. Beri nama class turunan pertama dengan nama 
     OrangBorneo. Dalam class OrangBorneo terdapat class interface yang implements dari 
     PengrajinKayu, PetaniSawit, dan PenjualIkan. Terdapat konstruktor tanpa parameter untuk 
-    menginisialisasi atribut dari class Orang, atribut-atribut tersebut akan diatur sesuai dengan nilainilai yang ditentukan.
+    menginisialisasi atribut dari class Orang, atribut-atribut tersebut akan diatur sesuai dengan nilai-nilai yang ditentukan.
 3.  Beri nama class turunan kedua dengan nama OrangPapua. Dalam class OrangPapua terdapat 
     class interface yang implements dari Guru, PemanduWisata, dan PenjagaHutan. Terdapat 
     konstruktor tanpa parameter untuk menginisialisasi atribut dari class Orang, atribut-atribut 
