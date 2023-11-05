@@ -1,7 +1,7 @@
 # Public, Private, Protected
-Public : dapat diakses oleh kelas manapun
-private : tidak dapat dipanggil diluar kelas
-protected : hanya dapat diakses oleh kelas turunannya
+- Public : dapat diakses oleh kelas manapun
+- private : tidak dapat dipanggil diluar kelas
+- protected : hanya dapat diakses oleh kelas turunannya
 
 # Tahapan-tahapan
 1. Pertama, buat Project Baru yang akan digunakan untuk membuat kelas-kelasnya.
