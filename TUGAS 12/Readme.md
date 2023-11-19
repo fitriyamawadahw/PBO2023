@@ -1,4 +1,7 @@
 # IREPORT Perpustakaan
+IReport digunakan untuk menampilkan hasil laporan dari data-data yang tersedia. Report disini bisa dicetak berdasarkan apa yang kita cari.
+Untuk source code dapat dilihat di folder src
+Untuk ireport dapat dilihat di folder report
 
 # Design Perpustakaan
 [
