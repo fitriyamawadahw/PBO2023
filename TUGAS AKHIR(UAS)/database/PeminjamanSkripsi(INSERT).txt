@@ -1,0 +1,170 @@
+INSERT INTO public.peminjamanskripsi (
+    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
+)
+VALUES 
+    ('P1', '001', 'Dewi Susanti', '2020', 'Sistem Informasi', 'Dipinjam', '2021/05/20', '2021/05/22'),
+    ('P2', '002', 'Rudi Cahyono', '2019', 'Sistem Informasi', 'Dipinjam', '2020/11/15', '2020/11/17'),
+    ('P3', '003', 'Sinta Wijaya', '2021', 'Sistem Informasi', 'Dipinjam', '2022/07/10', '2022/07/12'),
+    ('P4', '004', 'Budi Santoso', '2018', 'Sistem Informasi', 'Dipinjam', '2019/09/28', '2019/09/30'),
+    ('P5', '005', 'Lina Setiawan', '2022', 'Sistem Informasi', 'Dipinjam', '2023/12/05', '2023/12/07'),
+    ('P6', '006', 'Adi Prabowo', '2017', 'Sistem Informasi', 'Dipinjam', '2018/08/22', '2018/08/24'),
+    ('P7', '007', 'Fitriani Rahman', '2023', 'Sistem Informasi', 'Dipinjam', '2024/04/18', '2024/04/20'),
+    ('P8', '008', 'Agus Sutanto', '2016', 'Sistem Informasi', 'Dipinjam', '2017/10/30', '2017/11/01'),
+    ('P9', '009', 'Rina Wulandari', '2024', 'Sistem Informasi', 'Dipinjam', '2025/09/12', '2025/09/14'),
+    ('P10', '010', 'Bayu Prasetyo', '2015', 'Sistem Informasi', 'Dipinjam', '2016/12/04', '2016/12/06');
+
+
+INSERT INTO public.peminjamanskripsi (
+    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
+)
+VALUES 
+    ('P11', '011', 'Dubois', '2022', 'Sistem Informasi', 'Dipinjam', '2023/05/20', '2023/05/22'),
+    ('P12', '012', 'Lefevre', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/15', '2023/11/17'),
+    ('P13', '013', 'Mercier', '2022', 'Sistem Informasi', 'Dipinjam', '2024/07/10', '2024/07/12'),
+    ('P14', '014', 'Petit', '2022', 'Sistem Informasi', 'Dipinjam', '2025/09/28', '2025/09/30'),
+    ('P15', '015', 'Roussel', '2022', 'Sistem Informasi', 'Dipinjam', '2026/12/05', '2026/12/07'),
+    ('P16', '016', 'Blanc', '2022', 'Sistem Informasi', 'Dipinjam', '2027/08/22', '2027/08/24'),
+    ('P17', '017', 'Guerin', '2022', 'Sistem Informasi', 'Dipinjam', '2028/04/18', '2028/04/20'),
+    ('P18', '018', 'Legrand', '2022', 'Sistem Informasi', 'Dipinjam', '2029/10/30', '2029/11/01'),
+    ('P19', '019', 'Masson', '2022', 'Sistem Informasi', 'Dipinjam', '2030/09/12', '2030/09/14'),
+    ('P20', '020', 'Garnier', '2022', 'Sistem Informasi', 'Dipinjam', '2031/12/04', '2031/12/06');
+
+
+INSERT INTO public.peminjamanskripsi (
+    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
+)
+VALUES 
+    ('P21', '001', 'Berthier', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/20', '2023/11/22'),
+    ('P22', '002', 'Dupont', '2022', 'Sistem Informasi', 'Dipinjam', '2023/10/15', '2023/10/17'),
+    ('P23', '003', 'Lefebvre', '2022', 'Sistem Informasi', 'Dipinjam', '2024/09/10', '2024/09/12'),
+    ('P24', '004', 'Martin', '2022', 'Sistem Informasi', 'Dipinjam', '2025/10/28', '2025/10/30'),
+    ('P25', '005', 'Girard', '2022', 'Sistem Informasi', 'Dipinjam', '2026/11/05', '2026/11/07'),
+    ('P26', '006', 'Laurent', '2022', 'Sistem Informasi', 'Dipinjam', '2027/09/22', '2027/09/24'),
+    ('P27', '007', 'Moreau', '2022', 'Sistem Informasi', 'Dipinjam', '2028/09/18', '2028/09/20'),
+    ('P28', '008', 'Durand', '2022', 'Sistem Informasi', 'Dipinjam', '2029/12/30', '2029/12/01'),
+    ('P29', '009', 'Simon', '2022', 'Sistem Informasi', 'Dipinjam', '2030/10/12', '2030/10/14'),
+    ('P30', '010', 'Roux', '2022', 'Sistem Informasi', 'Dipinjam', '2031/11/04', '2031/11/06');
+
+INSERT INTO public.peminjamanskripsi (
+    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
+)
+VALUES 
+    ('P21', '041', 'Dukont', '2021', 'Sistem Informasi', 'Dipinjam', '2022/05/20', '2022/05/22'),
+    ('P22', '089', 'Meau', '2021', 'Sistem Informasi', 'Dipinjam', '2022/11/15', '2022/11/17'),
+    ('P23', '027', 'Duand', '2021', 'Sistem Informasi', 'Dipinjam', '2023/07/10', '2023/07/12'),
+    ('P24', '024', 'Lery', '2021', 'Sistem Informasi', 'Dipinjam', '2024/09/28', '2024/09/30'),
+    ('P25', '025', 'Lfevre', '2021', 'Sistem Informasi', 'Dipinjam', '2025/12/05', '2025/12/07'),
+    ('P26', '026', 'Rox', '2021', 'Sistem Informasi', 'Dipinjam', '2026/08/22', '2026/08/24'),
+    ('P27', '041', 'Jily', '2021', 'Sistem Informasi', 'Dipinjam', '2027/04/18', '2027/04/20'),
+    ('P28', '028', 'Miller', '2021', 'Sistem Informasi', 'Dipinjam', '2028/10/30', '2028/11/01'),
+    ('P29', '029', 'Gathier', '2021', 'Sistem Informasi', 'Dipinjam', '2029/09/12', '2029/09/14'),
+    ('P30', '030', 'Furinier', '2021', 'Sistem Informasi', 'Dipinjam', '2030/12/04', '2030/12/06');
+
+
+INSERT INTO public.peminjamanskripsi (
+    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
+)
+VALUES 
+    ('P31', '027', 'Dubois', '2021', 'Sistem Informasi', 'Dipinjam', '2022/05/20', '2022/05/22'),
+    ('P32', '023', 'Lambert', '2021', 'Sistem Informasi', 'Dipinjam', '2022/11/15', '2022/11/17'),
+    ('P33', '033', 'François', '2021', 'Sistem Informasi', 'Dipinjam', '2023/07/10', '2023/07/12'),
+    ('P34', '034', 'Martens', '2021', 'Sistem Informasi', 'Dipinjam', '2024/09/28', '2024/09/30'),
+    ('P35', '021', 'Leclercq', '2021', 'Sistem Informasi', 'Dipinjam', '2025/12/05', '2025/12/07'),
+    ('P36', '036', 'Leroux', '2021', 'Sistem Informasi', 'Dipinjam', '2026/08/22', '2026/08/24'),
+    ('P37', '030', 'Simon', '2021', 'Sistem Informasi', 'Dipinjam', '2027/04/18', '2027/04/20'),
+    ('P38', '032', 'Lemaire', '2021', 'Sistem Informasi', 'Dipinjam', '2028/10/30', '2028/11/01'),
+    ('P39', '039', 'Dumont', '2021', 'Sistem Informasi', 'Dipinjam', '2029/09/12', '2029/09/14'),
+    ('P40', '041', 'Jacobs', '2021', 'Sistem Informasi', 'Dipinjam', '2030/12/04', '2030/12/06');
+
+
+INSERT INTO public.peminjamanskripsi (
+    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
+)
+VALUES 
+    ('P41', '062', 'Martinez', '2021', 'Sistem Informasi', 'Dipinjam', '2022/05/20', '2022/05/22'),
+    ('P42', '027', 'Garcia', '2021', 'Sistem Informasi', 'Dipinjam', '2022/11/15', '2022/11/17'),
+    ('P43', '035', 'Lopez', '2021', 'Sistem Informasi', 'Dipinjam', '2022/07/10', '2022/07/12'),
+    ('P44', '090', 'Rodriguez', '2021', 'Sistem Informasi', 'Dipinjam', '2022/09/28', '2022/09/30'),
+    ('P45', '045', 'Fernandez', '2021', 'Sistem Informasi', 'Dipinjam', '2022/12/05', '2022/12/07'),
+    ('P46', '042', 'Sanchez', '2021', 'Sistem Informasi', 'Dipinjam', '2022/08/22', '2022/08/24'),
+    ('P47', '047', 'Gomez', '2021', 'Sistem Informasi', 'Dipinjam', '2022/04/18', '2022/04/20'),
+    ('P48', '048', 'Perez', '2021', 'Sistem Informasi', 'Dipinjam', '2022/10/30', '2022/11/01'),
+    ('P49', '049', 'Martin', '2021', 'Sistem Informasi', 'Dipinjam', '2022/09/12', '2022/09/14'),
+    ('P50', '050', 'Jimenez', '2021', 'Sistem Informasi', 'Dipinjam', '2022/12/04', '2022/12/06');
+
+
+INSERT INTO public.peminjamanskripsi (
+    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
+)
+VALUES 
+    ('P51', '055', 'Sato', '2021', 'Sistem Informasi', 'Dipinjam', '2023/05/20', '2023/05/22'),
+    ('P52', '057', 'Suzuki', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/15', '2023/11/17'),
+    ('P53', '026', 'Takahashi', '2021', 'Sistem Informasi', 'Dipinjam', '2023/07/10', '2023/07/12'),
+    ('P54', '011', 'Tanaka', '2021', 'Sistem Informasi', 'Dipinjam', '2023/09/28', '2023/09/30'),
+    ('P55', '055', 'Watanabe', '2021', 'Sistem Informasi', 'Dipinjam', '2023/12/05', '2023/12/07'),
+    ('P56', '056', 'Ito', '2021', 'Sistem Informasi', 'Dipinjam', '2023/08/22', '2023/08/24'),
+    ('P57', '057', 'Yamamoto', '2021', 'Sistem Informasi', 'Dipinjam', '2023/04/18', '2023/04/20'),
+    ('P58', '058', 'Nakamura', '2021', 'Sistem Informasi', 'Dipinjam', '2023/10/30', '2023/11/01'),
+    ('P59', '059', 'Kobayashi', '2021', 'Sistem Informasi', 'Dipinjam', '2023/09/12', '2023/09/14'),
+    ('P60', '060', 'Kato', '2021', 'Sistem Informasi', 'Dipinjam', '2023/12/04', '2023/12/06');
+
+
+INSERT INTO public.peminjamanskripsi (
+    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
+)
+VALUES 
+    ('P61', '061', 'Somchai', '2021', 'Sistem Informasi', 'Dipinjam', '2023/01/05', '2023/01/07'),
+    ('P62', '062', 'Napat', '2021', 'Sistem Informasi', 'Dipinjam', '2023/01/10', '2023/01/12'),
+    ('P63', '063', 'Achara', '2021', 'Sistem Informasi', 'Dipinjam', '2023/01/15', '2023/01/17'),
+    ('P64', '064', 'Kritsana', '2021', 'Sistem Informasi', 'Dipinjam', '2023/01/30', '2023/02/01'),
+    ('P65', '065', 'Chatchai', '2021', 'Sistem Informasi', 'Dipinjam', '2023/02/05', '2023/02/07'),
+    ('P66', '066', 'Wirat', '2021', 'Sistem Informasi', 'Dipinjam', '2023/02/10', '2023/02/12'),
+    ('P69', '069', 'Sommai', '2021', 'Sistem Informasi', 'Dipinjam', '2023/02/25', '2023/02/27'),
+    ('P70', '070', 'Siri', '2021', 'Sistem Informasi', 'Dipinjam', '2023/01/25', '2023/01/27');
+
+INSERT INTO public.peminjamanskripsi (
+    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
+)
+VALUES 
+    ('P71', '071', 'Prakanong', '2021', 'Sistem Informasi', 'Sudah Kembali', '2023/01/01', '2023/01/03'),
+    ('P72', '072', 'Phimak', '2021', 'Sistem Informasi', 'Sudah Kembali', '2023/01/05', '2023/01/07'),
+    ('P73', '073', 'Lala', '2021', 'Sistem Informasi', 'Sudah Kembali', '2023/01/10', '2023/01/12'),
+    ('P74', '074', 'Lili', '2021', 'Sistem Informasi', 'Sudah Kembali', '2023/01/15', '2023/01/17'),
+    ('P75', '075', 'Lulu', '2021', 'Sistem Informasi', 'Sudah Kembali', '2023/01/20', '2023/01/22'),
+    ('P76', '076', 'Nana', '2021', 'Sistem Informasi', 'Sudah Kembali', '2023/01/25', '2023/01/27'),
+    ('P77', '077', 'Jayan', '2021', 'Sistem Informasi', 'Sudah Kembali', '2023/02/01', '2023/02/03'),
+    ('P78', '078', 'Marina', '2021', 'Sistem Informasi', 'Sudah Kembali', '2023/02/05', '2023/02/07'),
+    ('P79', '079', 'Man', '2021', 'Sistem Informasi', 'Sudah Kembali', '2023/02/10', '2023/02/12'),
+    ('P80', '080', 'Ram', '2021', 'Sistem Informasi', 'Sudah Kembali', '2023/02/15', '2023/02/17'),
+    ('P81', '081', 'Jay', '2021', 'Sistem Informasi', 'Sudah Kembali', '2023/02/20', '2023/02/22');
+
+
+INSERT INTO public.peminjamanskripsi (
+    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
+)
+VALUES 
+    ('P82', '082', 'Jimmy', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/01/01', '2023/01/03'),
+    ('P83', '083', 'Jaen', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/01/02', '2023/01/04'),
+    ('P84', '084', 'Jypi', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/01/03', '2023/01/05'),
+    ('P85', '025', 'Van', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/01/04', '2023/01/06'),
+    ('P86', '026', 'Rein', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/01/05', '2023/01/07'),
+    ('P87', '025', 'Roy', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/01/06', '2023/01/08'),
+    ('P88', '081', 'Betrice', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/01/07', '2023/01/09'),
+    ('P89', '025', 'Rice', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/01/08', '2023/01/10'),
+    ('P90', '026', 'Blacky', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/01/09', '2023/01/11'),
+    ('P91', '025', 'Georges', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/01/10', '2023/01/12'),
+    ('P92', '092', 'Naqy', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/01/11', '2023/01/13');
+
+
+INSERT INTO public.peminjamanskripsi (
+    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
+)
+VALUES 
+    ('P93', '093', 'nana', '2022', 'Sistem Informasi', 'Dipinjam', '2023/02/12', '2023/02/14'),
+    ('P94', '094', 'Sam', '2022', 'Sistem Informasi', 'Dipinjam', '2023/02/13', '2023/02/15'),
+    ('P95', '095', 'Toni', '2022', 'Sistem Informasi', 'Dipinjam', '2023/02/14', '2023/02/16'),
+    ('P96', '096', 'Irma', '2022', 'Sistem Informasi', 'Dipinjam', '2023/02/15', '2023/02/17'),
+    ('P97', '097', 'Elren', '2022', 'Sistem Informasi', 'Dipinjam', '2023/02/16', '2023/02/18'),
+    ('P98', '098', 'Elena', '2022', 'Sistem Informasi', 'Dipinjam', '2023/02/17', '2023/02/19'),
+    ('P99', '099', 'Helen', '2022', 'Sistem Informasi', 'Dipinjam', '2023/02/18', '2023/02/20'),
+    ('P100', '100', 'Flix', '2022', 'Sistem Informasi', 'Dipinjam', '2023/02/19', '2023/02/21');

@@ -1,0 +1,115 @@
+-- Table: public.data_buku
+
+-- DROP TABLE IF EXISTS public.data_buku;
+
+CREATE TABLE IF NOT EXISTS public.data_buku
+(
+    isbn character varying(17) COLLATE pg_catalog."default" NOT NULL,
+    judul character varying(255) COLLATE pg_catalog."default",
+    namakategori character varying(255) COLLATE pg_catalog."default",
+    pengarang character varying(255) COLLATE pg_catalog."default",
+    penerbit character varying(255) COLLATE pg_catalog."default",
+    tahunterbit character varying(255) COLLATE pg_catalog."default",
+    jumlahhalaman character varying(255) COLLATE pg_catalog."default",
+    jumlahbuku character varying(255) COLLATE pg_catalog."default",
+    CONSTRAINT databuku_pkey PRIMARY KEY (isbn)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.data_buku
+    OWNER to postgres;
+
+
+-- Table: public.data_skripsi
+
+-- DROP TABLE IF EXISTS public.data_skripsi;
+
+CREATE TABLE IF NOT EXISTS public.data_skripsi
+(
+    nomorindeks character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    judulskripsi character varying(255) COLLATE pg_catalog."default",
+    penulis character varying(255) COLLATE pg_catalog."default",
+    programstudi character varying(255) COLLATE pg_catalog."default",
+    tahunterbits character varying(255) COLLATE pg_catalog."default",
+    jumlahhalamans character varying(250) COLLATE pg_catalog."default",
+    tanggalpenyelesaian character varying(255) COLLATE pg_catalog."default",
+    angkatan character varying(255) COLLATE pg_catalog."default",
+    kategori character varying(255) COLLATE pg_catalog."default",
+    CONSTRAINT "dataSkripsi_pkey" PRIMARY KEY (nomorindeks)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.data_skripsi
+    OWNER to postgres;
+
+
+-- Table: public.peminjaman
+
+-- DROP TABLE IF EXISTS public.peminjaman;
+
+CREATE TABLE IF NOT EXISTS public.peminjaman
+(
+    idpeminjam character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    isbn character varying(255) COLLATE pg_catalog."default",
+    nama character varying(255) COLLATE pg_catalog."default",
+    angkatan character varying(255) COLLATE pg_catalog."default",
+    prodi character varying(255) COLLATE pg_catalog."default",
+    status character varying(255) COLLATE pg_catalog."default",
+    tanggalpeminjaman character varying(255) COLLATE pg_catalog."default",
+    tanggalpengembalian character varying(255) COLLATE pg_catalog."default",
+    CONSTRAINT peminajaman_pkey PRIMARY KEY (idpeminjam),
+    CONSTRAINT peminjaman_foreign_key_isbn FOREIGN KEY (isbn)
+        REFERENCES public.data_buku (isbn) MATCH SIMPLE
+        ON UPDATE RESTRICT
+        ON DELETE RESTRICT
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.peminjaman
+    OWNER to postgres;
+
+
+-- Table: public.peminjamanskripsi
+
+-- DROP TABLE IF EXISTS public.peminjamanskripsi;
+
+CREATE TABLE IF NOT EXISTS public.peminjamanskripsi
+(
+    idpeminjams character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    nomorindeks character varying(255) COLLATE pg_catalog."default",
+    nama character varying(255) COLLATE pg_catalog."default",
+    angkatan character varying(255) COLLATE pg_catalog."default",
+    prodi character varying(255) COLLATE pg_catalog."default",
+    status character varying(255) COLLATE pg_catalog."default",
+    tanggalpinjam character varying(255) COLLATE pg_catalog."default",
+    tanggalkembali character varying(255) COLLATE pg_catalog."default",
+    CONSTRAINT peminjamanskripsi_pkey PRIMARY KEY (idpeminjams),
+    CONSTRAINT fk_peminjamanskripsi_nomorindeks FOREIGN KEY (nomorindeks)
+        REFERENCES public.data_skripsi (nomorindeks) MATCH SIMPLE
+        ON UPDATE RESTRICT
+        ON DELETE RESTRICT
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.peminjamanskripsi
+    OWNER to postgres;
+
+-- Table: public.login
+
+-- DROP TABLE IF EXISTS public.login;
+
+CREATE TABLE IF NOT EXISTS public.login
+(
+    username character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    password character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT login_pkey PRIMARY KEY (password)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.login
+    OWNER to postgres;

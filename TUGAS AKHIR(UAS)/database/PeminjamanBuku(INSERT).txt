@@ -1,0 +1,139 @@
+INSERT INTO public.peminjaman(
+	idpeminjam, isbn, nama, angkatan, prodi, status, tanggalpeminjaman, tanggalpengembalian)
+	VALUES ('A01-001', '978-623-00-116-0', 'John Doe', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-002', '978-623-00-065-1', 'Alice Smith', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-003', '978-602-592-49-9', 'Evan Brown', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-004', '978-623-228-171-4', 'Olivia Taylor', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-005', '978-677-230-271-5', 'Sophia Johnson', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-006', '978-667-295-371-7', 'Liam Anderson', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-007', '978-097-563-671-9', 'Emma Garcia', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-008', '978-321-136-272-5', 'Noah Martinez', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-009', '978-211-042-902-1', 'Ava Lee', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-010', '978-881-181-372-0', 'Mia Wilson', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-011', '978-211-025-276-0', 'Lucas Brown', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-012', '978-411-193-475-5', 'Harper Taylor', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-013', '978-301-232-192-7', 'Evelyn Garcia', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-014', '978-921-158-072-3', 'Jackson Martinez', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-015', '978-914-168-090-0', 'Scarlett Adams', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-016', '978-451-159-072-3', 'Liam Thompson', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-017', '978-0-13-214537-4', 'Emma Davis', '2016', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03');
+
+INSERT INTO public.peminjaman(
+    idpeminjam, isbn, nama, angkatan, prodi, status, tanggalpeminjaman, tanggalpengembalian)
+VALUES 
+    ('A01-018', '978-623-00-116-0', 'Michael Clark', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/04', '2023/11/06'),
+    ('A01-019', '978-623-00-065-1', 'Sophie Turner', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/07', '2023/11/09'),
+    ('A01-020', '978-602-592-49-9', 'Matthew Anderson', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/10', '2023/11/12'),
+    ('A01-021', '978-623-228-171-4', 'Emily Harris', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/13', '2023/11/15'),
+    ('A01-022', '978-677-230-271-5', 'Daniel Martinez', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/16', '2023/11/18'),
+    ('A01-023', '978-667-295-371-7', 'Olivia Johnson', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/19', '2023/11/21'),
+    ('A01-024', '978-097-563-671-9', 'Liam Garcia', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/22', '2023/11/24'),
+    ('A01-025', '978-321-136-272-5', 'Ava Wilson', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/25', '2023/11/27'),
+    ('A01-026', '978-211-042-902-1', 'Noah Brown', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/28', '2023/11/30'),
+    ('A01-027', '978-881-181-372-0', 'Isabella Taylor', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/08', '2023/11/10'),
+    ('A01-028', '978-211-025-276-0', 'James Williams', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/11', '2023/11/13'),
+    ('A01-029', '978-411-193-475-5', 'Aiden Martinez', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/14', '2023/11/16'),
+    ('A01-030', '978-301-232-192-7', 'Charlotte Davis', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/17', '2023/11/19'),
+    ('A01-031', '978-921-158-072-3', 'Benjamin Johnson', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/20', '2023/11/22'),
+    ('A01-032', '978-914-168-090-0', 'Harper Wilson', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/23', '2023/11/25'),
+    ('A01-033', '978-451-159-072-3', 'Grace Brown', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/26', '2023/11/28'),
+    ('A01-034', '978-0-13-214537-4', 'David Garcia', '2016', 'Sistem Informasi', 'Dipinjam', '2023/11/29', '2023/11/01');
+
+
+INSERT INTO public.peminjaman(
+    idpeminjam, isbn, nama, angkatan, prodi, status, tanggalpeminjaman, tanggalpengembalian)
+VALUES 
+    ('A01-035', '978-1-119-48257-8', 'Lì Sī', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/04', '2023/11/06'),
+    ('A01-036', '978-1-26-044033-1', 'Wáng Hóng', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/07', '2023/11/09'),
+    ('A01-037', '978-1-491-98712-8', 'Zhāng Sān', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/10', '2023/11/12'),
+    ('A01-038', '978-0-13-511108-3', 'Lǐ Sì', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/13', '2023/11/15'),
+    ('A01-039', '978-0-07-183597-8', 'Zhào Yī', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/16', '2023/11/18'),
+    ('A01-040', '978-1-444-31657-8', 'Chén Lì', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/19', '2023/11/21'),
+    ('A01-041', '978-0-12-814206-5', 'Zhou Wáng', '2019', 'Sistem Informasi', 'Dipinjam', '2023/11/22', '2023/11/24'),
+    ('A01-042', '978-1-119-48257-8', 'Fēng Zhèng', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/25', '2023/11/27'),
+    ('A01-043', '978-1-26-044033-1', 'Lín Wú', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/28', '2023/11/30'),
+    ('A01-044', '978-1-491-98712-8', 'Yáng Míng', '2020', 'Sistem Informasi', 'Dipinjam', '2023/11/08', '2023/11/10'),
+    ('A01-045', '978-0-13-511108-3', 'Chéng Yáo', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/11', '2023/11/13'),
+    ('A01-046', '978-0-07-183597-8', 'Wēi Fèi', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/14', '2023/11/16'),
+    ('A01-047', '978-1-444-31657-8', 'Lú Xùn', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/17', '2023/11/19'),
+    ('A01-048', '978-0-12-814206-5', 'Zhang Lín', '2021', 'Sistem Informasi', 'Dipinjam', '2023/11/20', '2023/11/22'),
+    ('A01-049', '978-1-119-48257-8', 'Huáng Xiù', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/23', '2023/11/25'),
+    ('A01-050', '978-1-26-044033-1', 'Yīn Jiāng', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/26', '2023/11/28'),
+    ('A01-051', '978-1-491-98712-8', 'Lǐ Huī', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/29', '2023/11/01');
+
+
+INSERT INTO public.peminjaman(
+    idpeminjam, isbn, nama, angkatan, prodi, status, tanggalpeminjaman, tanggalpengembalian)
+VALUES 
+    ('A01-052', '978-1-119-48257-8', 'Chen Wei', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/04', '2023/11/06'),
+    ('A01-053', '978-1-26-044033-1', 'Liu Jing', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/07', '2023/11/09'),
+    ('A01-054', '978-1-491-98712-8', 'Zhang Min', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/10', '2023/11/12'),
+    ('A01-055', '978-0-13-511108-3', 'Wang Qian', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/13', '2023/11/15'),
+    ('A01-056', '978-0-07-183597-8', 'Li Xin', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/16', '2023/11/18'),
+    ('A01-057', '978-1-444-31657-8', 'Sun Ting', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/19', '2023/11/21'),
+    ('A01-058', '978-0-12-814206-5', 'Zhou Rui', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/22', '2023/11/24'),
+    ('A01-059', '978-1-119-48257-8', 'Liang Ming', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/25', '2023/11/27'),
+    ('A01-060', '978-1-26-044033-1', 'Xu Yang', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/28', '2023/11/30'),
+    ('A01-061', '978-1-491-98712-8', 'Cheng Fang', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/08', '2023/11/10'),
+    ('A01-062', '978-0-13-511108-3', 'Wu Bo', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/11', '2023/11/13'),
+    ('A01-063', '978-0-07-183597-8', 'Zhang Mei', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/14', '2023/11/16'),
+    ('A01-064', '978-1-444-31657-8', 'Yang Yi', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/17', '2023/11/19'),
+    ('A01-065', '978-0-12-814206-5', 'Chen Juan', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/20', '2023/11/22'),
+    ('A01-066', '978-1-119-48257-8', 'Wang Tao', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/23', '2023/11/25'),
+    ('A01-067', '978-1-26-044033-1', 'Li Lei', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/26', '2023/11/28'),
+    ('A01-068', '978-1-491-98712-8', 'Sun Yang', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/29', '2023/11/01');
+
+
+INSERT INTO public.peminjaman(
+    idpeminjam, isbn, nama, angkatan, prodi, status, tanggalpeminjaman, tanggalpengembalian)
+VALUES 
+    ('A01-069', '978-0-262-52987-0', 'Ahmad Farid', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/03', '2023/11/05'),
+    ('A01-070', '978-1-609-94536-0', 'Youssef Amir', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/06', '2023/11/08'),
+    ('A01-071', '988-3-16-148410-0', 'Karim Nassir', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/09', '2023/11/11'),
+    ('A01-072', '988-3-16-148411-1', 'Hassan Salah', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/12', '2023/11/14'),
+    ('A01-073', '988-3-16-148412-2', 'Ali Rizqi', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/15', '2023/11/17'),
+    ('A01-074', '988-3-16-148413-3', 'Omar Mansour', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/18', '2023/11/20'),
+    ('A01-075', '988-3-16-148414-4', 'Nizar Hadi', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/21', '2023/11/23'),
+    ('A01-076', '988-3-16-148415-5', 'Majid Yassin', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/24', '2023/11/26'),
+    ('A01-077', '988-3-16-148416-6', 'Tariq Aziz', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/27', '2023/11/29'),
+    ('A01-078', '988-3-16-148417-7', 'Amr Fawzi', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/11/30', '2023/12/02'),
+    ('A01-079', '988-3-16-148418-8', 'Walid Said', '2022', 'Sistem Informasi', 'Sudah Kembali', '2023/12/03', '2023/12/05');
+
+
+INSERT INTO public.peminjaman(
+    idpeminjam, isbn, nama, angkatan, prodi, status, tanggalpeminjaman, tanggalpengembalian)
+VALUES 
+    ('A01-080', '988-3-16-148413-3', 'Fatima Abdel', '2022', 'Sistem Informasi', 'Dipinjam', '2023/12/21', '2023/12/23'),
+    ('A01-081', '988-3-16-148414-4', 'Yusuf Mohammed', '2022', 'Sistem Informasi', 'Dipinjam', '2023/12/24', '2023/12/26'),
+    ('A01-082', '988-3-16-148415-5', 'Aisha Ibrahim', '2022', 'Sistem Informasi', 'Dipinjam', '2023/12/27', '2023/12/29'),
+    ('A01-083', '988-3-16-148416-6', 'Aliyah Ahmed', '2022', 'Sistem Informasi', 'Dipinjam', '2023/12/30', '2024/01/01'),
+    ('A01-084', '988-3-16-148417-7', 'Omar Ahmad', '2022', 'Sistem Informasi', 'Dipinjam', '2024/01/02', '2024/01/04'),
+    ('A01-085', '988-3-16-148418-8', 'Layla Najjar', '2022', 'Sistem Informasi', 'Dipinjam', '2024/01/05', '2024/01/07'),
+    ('A01-086', '988-3-16-148419-9', 'Nour Adel', '2022', 'Sistem Informasi', 'Dipinjam', '2024/01/08', '2024/01/10'),
+    ('A01-087', '988-3-16-148420-5', 'Zainab Ezzat', '2022', 'Sistem Informasi', 'Dipinjam', '2024/01/11', '2024/01/13'),
+    ('A01-088', '988-3-16-148421-6', 'Mohammed Fawzi', '2022', 'Sistem Informasi', 'Dipinjam', '2024/01/14', '2024/01/16'),
+    ('A01-089', '988-3-16-148422-7', 'Leila Gamal', '2022', 'Sistem Informasi', 'Dipinjam', '2024/01/17', '2024/01/19'),
+    ('A01-090', '988-3-16-148423-8', 'Ahmed Hadi', '2022', 'Sistem Informasi', 'Dipinjam', '2024/01/20', '2024/01/22');
+
+
+INSERT INTO public.peminjaman(
+    idpeminjam, isbn, nama, angkatan, prodi, status, tanggalpeminjaman, tanggalpengembalian)
+VALUES 
+    ('A01-091', '992-3-16-148461-1', 'Sebastian Müller', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-092', '992-3-16-148462-2', 'Sophia Wagner', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/04', '2023/11/06'),
+    ('A01-093', '992-3-16-148463-3', 'Lukas Fischer', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/07', '2023/11/09'),
+    ('A01-094', '992-3-16-148464-4', 'Mia Schmitt', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/10', '2023/11/12'),
+    ('A01-095', '992-3-16-148465-5', 'Paul Müller', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/13', '2023/11/15'),
+    ('A01-096', '992-3-16-148466-6', 'Emilia Becker', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/16', '2023/11/18'),
+    ('A01-097', '992-3-16-148467-7', 'Jonas Schulz', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/19', '2023/11/21'),
+    ('A01-098', '992-3-16-148468-8', 'Lena Hoffmann', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/22', '2023/11/24'),
+    ('A01-099', '992-3-16-148469-9', 'Noah Richter', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/25', '2023/11/27'),
+    ('A01-100', '991-3-16-148470-0', 'Hannah Wagner', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/28', '2023/11/30'),
+    ('A01-101', '978-1-444-31657-8', 'Sarah Johnson', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/01', '2023/11/03'),
+    ('A01-102', '978-1-444-31657-8', 'Daniel Miller', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/04', '2023/11/06'),
+    ('A01-103', '978-1-444-31657-8', 'Emma Davis', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/07', '2023/11/09'),
+    ('A01-104', '978-1-444-31657-8', 'Lucas Wilson', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/10', '2023/11/12'),
+    ('A01-105', '978-1-444-31657-8', 'Olivia Taylor', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/13', '2023/11/15'),
+    ('A01-106', '978-1-444-31657-8', 'James Anderson', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/16', '2023/11/18'),
+    ('A01-107', '978-1-444-31657-8', 'Emily Clark', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/19', '2023/11/21');
+
