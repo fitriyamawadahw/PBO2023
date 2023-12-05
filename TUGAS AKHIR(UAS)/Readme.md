@@ -2,6 +2,14 @@
 ## 
 ## SOFTWARE ##
 
+## LIBRARIES ##
+- https://dlcdn.apache.org//commons/collections/binaries/commons-collections4-4.4-bin.zip
+- https://dlcdn.apache.org//commons/digester/binaries/commons-digester-2.1-bin.zip
+- https://dlcdn.apache.org//commons/beanutils/binaries/commons-beanutils-1.9.4-bin.zip
+- https://dlcdn.apache.org//commons/logging/binaries/commons-logging-1.3.0-bin.zip
+- https://dlcdn.apache.org//commons/dbutils/binaries/commons-dbutils-1.8.1-bin.zip
+- jaspereports 6.20.6
+  
 ## DESIGN GUI ##
 1. DESIGN DATA BUKU
    ![Screenshot (453)](https://github.com/fitriyamawadahw/PBO2023/assets/146052469/c26652d6-bc74-46c9-93a8-cc2b42a3fe21)
