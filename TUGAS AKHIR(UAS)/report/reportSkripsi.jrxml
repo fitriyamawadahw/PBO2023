@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7949fe0d-9294-48b4-8734-7a9906db2566">
+	<property name="ireport.zoom" value="1.2100000000000126"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#73C9E6">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#CFE0E6">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<subDataset name="dataskripsi" uuid="da38ab46-4c4a-41c3-9624-415a2da96e8e">
+		<queryString language="SQL">
+			<![CDATA[select * from data_skripsi]]>
+		</queryString>
+		<field name="nomorindeks" class="java.lang.String"/>
+		<field name="judulskripsi" class="java.lang.String"/>
+		<field name="penulis" class="java.lang.String"/>
+		<field name="programstudi" class="java.lang.String"/>
+		<field name="tahunterbits" class="java.lang.String"/>
+		<field name="jumlahhalamans" class="java.lang.String"/>
+		<field name="tanggalpenyelesaian" class="java.lang.String"/>
+		<field name="angkatan" class="java.lang.String"/>
+	</subDataset>
+	<parameter name="querySearch" class="java.lang.String"/>
+	<parameter name="searchBy" class="java.lang.String"/>
+	<queryString language="SQL">
+		<![CDATA[select * from data_skripsi]]>
+	</queryString>
+	<field name="nomorindeks" class="java.lang.String"/>
+	<field name="judulskripsi" class="java.lang.String"/>
+	<field name="penulis" class="java.lang.String"/>
+	<field name="kategori" class="java.lang.String"/>
+	<field name="programstudi" class="java.lang.String"/>
+	<field name="angkatan" class="java.lang.String"/>
+	<field name="tahunterbits" class="java.lang.String"/>
+	<field name="jumlahhalamans" class="java.lang.String"/>
+	<field name="tanggalpenyelesaian" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement style="table_CH" x="0" y="0" width="802" height="79" forecolor="#FFFFFF" backcolor="#0D43AA" uuid="e61ce0e8-b51f-4836-bc85-e293a3a0dbed"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN DATA SKRIPSI]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<textField>
+				<reportElement x="20" y="11" width="504" height="20" uuid="6305ea2f-f487-4d67-bb54-c830c3a23ca2"/>
+				<textFieldExpression><![CDATA["Hasil Pencarian dari " + $P{querySearch} +" Berdasarkan Pada Kolom " + $P{searchBy} +" Hasilnya adalah:"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement style="table_TH" x="77" y="10" width="171" height="20" forecolor="#FFFFFF" backcolor="#0D43AA" uuid="ddbfa386-a342-4457-9b41-df4f0a2e4164"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+					<font isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Judul Skripsi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="table_TH" x="248" y="10" width="65" height="20" forecolor="#FFFFFF" backcolor="#0D43AA" uuid="61ef5850-7995-4edd-be14-c0585b35ed0c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+					<font isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Penulis]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="table_TH" x="744" y="10" width="59" height="20" forecolor="#FFFFFF" backcolor="#0D43AA" uuid="f5d5aa36-f6d2-41fb-b76a-11a48b7f9c65"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+					<font isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Tgl Selesai]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="table_TH" x="2" y="10" width="75" height="20" forecolor="#FFFFFF" backcolor="#0D43AA" uuid="7c7a052f-128e-4c3f-bc80-2d8221733ab7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+					<font isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Nomor Indeks]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="table_TH" x="608" y="10" width="57" height="20" forecolor="#FFFFFF" backcolor="#0D43AA" uuid="a9794f67-ef4d-4c06-86d0-86d585a3b894"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+					<font isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Tahun Terbit]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="table_TH" x="482" y="10" width="80" height="20" forecolor="#FFFFFF" backcolor="#0D43AA" uuid="974331dd-a6fb-4219-8c15-290f0f1f5af3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+					<font isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Program Studi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="table_TH" x="665" y="10" width="80" height="20" forecolor="#FFFFFF" backcolor="#0D43AA" uuid="b3b92259-23f0-47a4-9b16-7b2f59537e9c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+					<font isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Jumlah Halaman]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="table_TH" x="313" y="10" width="169" height="20" forecolor="#FFFFFF" backcolor="#0D43AA" uuid="2f3388e3-4d76-401e-a397-f6278aa80ce9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+					<font isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Kategori]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="table_TH" x="562" y="10" width="46" height="20" forecolor="#FFFFFF" backcolor="#0D43AA" uuid="098efc36-4500-4343-a1dc-835476c500be"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="styled">
+					<font isUnderline="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Angkatan]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement style="table_TD" x="2" y="0" width="75" height="20" uuid="7a7713c6-4faf-4932-92dc-4f28fb3ec0bd"/>
+				<textElement markup="styled">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomorindeks}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="table_TD" x="248" y="0" width="65" height="20" uuid="a2deea42-8ede-4a31-b0c0-fe04f27c189b"/>
+				<textElement markup="styled">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{penulis}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="table_TD" x="608" y="0" width="57" height="20" uuid="e4c7ef05-8bd6-45d6-9f66-2c0ea2343ca4"/>
+				<textElement markup="styled">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tahunterbits}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="table_TD" x="77" y="0" width="171" height="20" uuid="3d896239-6303-46bd-81a7-e9700ceced7c"/>
+				<textElement markup="styled">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{judulskripsi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="table_TD" x="482" y="0" width="80" height="20" uuid="773dd632-b54a-4038-8307-ba352af976c3"/>
+				<textElement markup="styled">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{programstudi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="table_TD" x="665" y="0" width="80" height="20" uuid="02f10d06-2469-476e-8fc2-d23c2895e055"/>
+				<textElement markup="styled">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{jumlahhalamans}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="table_TD" x="744" y="0" width="58" height="20" uuid="296b089c-892a-4f13-b810-8a792ea94991"/>
+				<textElement markup="styled">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tanggalpenyelesaian}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="table_TD" x="313" y="0" width="169" height="20" uuid="269ba04c-1592-46ec-9df4-91e60f893106"/>
+				<textElement markup="styled">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{kategori}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="table_TD" x="562" y="0" width="46" height="20" uuid="3d2d8c27-a922-4984-92a6-59f3a2ee4abf"/>
+				<textElement markup="styled">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{angkatan}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="0" y="34" width="100" height="20" uuid="8b54dcc8-2497-4c1b-9eb8-8876158f7f12"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="744" y="34" width="100" height="20" uuid="79e769d2-7c0a-483c-a317-b7c03d17dd95"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
