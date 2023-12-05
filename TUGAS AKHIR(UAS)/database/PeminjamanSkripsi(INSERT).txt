@@ -29,22 +29,6 @@ VALUES
     ('P19', '019', 'Masson', '2022', 'Sistem Informasi', 'Dipinjam', '2030/09/12', '2030/09/14'),
     ('P20', '020', 'Garnier', '2022', 'Sistem Informasi', 'Dipinjam', '2031/12/04', '2031/12/06');
 
-
-INSERT INTO public.peminjamanskripsi (
-    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
-)
-VALUES 
-    ('P21', '001', 'Berthier', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/20', '2023/11/22'),
-    ('P22', '002', 'Dupont', '2022', 'Sistem Informasi', 'Dipinjam', '2023/10/15', '2023/10/17'),
-    ('P23', '003', 'Lefebvre', '2022', 'Sistem Informasi', 'Dipinjam', '2024/09/10', '2024/09/12'),
-    ('P24', '004', 'Martin', '2022', 'Sistem Informasi', 'Dipinjam', '2025/10/28', '2025/10/30'),
-    ('P25', '005', 'Girard', '2022', 'Sistem Informasi', 'Dipinjam', '2026/11/05', '2026/11/07'),
-    ('P26', '006', 'Laurent', '2022', 'Sistem Informasi', 'Dipinjam', '2027/09/22', '2027/09/24'),
-    ('P27', '007', 'Moreau', '2022', 'Sistem Informasi', 'Dipinjam', '2028/09/18', '2028/09/20'),
-    ('P28', '008', 'Durand', '2022', 'Sistem Informasi', 'Dipinjam', '2029/12/30', '2029/12/01'),
-    ('P29', '009', 'Simon', '2022', 'Sistem Informasi', 'Dipinjam', '2030/10/12', '2030/10/14'),
-    ('P30', '010', 'Roux', '2022', 'Sistem Informasi', 'Dipinjam', '2031/11/04', '2031/11/06');
-
 INSERT INTO public.peminjamanskripsi (
     idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
 )
@@ -168,3 +152,18 @@ VALUES
     ('P98', '098', 'Elena', '2022', 'Sistem Informasi', 'Dipinjam', '2023/02/17', '2023/02/19'),
     ('P99', '099', 'Helen', '2022', 'Sistem Informasi', 'Dipinjam', '2023/02/18', '2023/02/20'),
     ('P100', '100', 'Flix', '2022', 'Sistem Informasi', 'Dipinjam', '2023/02/19', '2023/02/21');
+	
+INSERT INTO public.peminjamanskripsi (
+    idpeminjams, nomorindeks, nama, angkatan, prodi, status, tanggalpinjam, tanggalkembali
+)
+VALUES 
+    ('P101', '025', 'Berthier', '2022', 'Sistem Informasi', 'Dipinjam', '2023/11/20', '2023/11/22'),
+    ('P102', '025', 'Dupont', '2022', 'Sistem Informasi', 'Dipinjam', '2023/10/15', '2023/10/17'),
+    ('P103', '089', 'Lefebvre', '2022', 'Sistem Informasi', 'Dipinjam', '2024/09/10', '2024/09/12'),
+    ('P104', '098', 'Martin', '2022', 'Sistem Informasi', 'Dipinjam', '2025/10/28', '2025/10/30'),
+    ('P105', '002', 'Girard', '2022', 'Sistem Informasi', 'Dipinjam', '2026/11/05', '2026/11/07'),
+    ('P106', '007', 'Laurent', '2022', 'Sistem Informasi', 'Dipinjam', '2027/09/22', '2027/09/24'),
+    ('P107', '010', 'Moreau', '2022', 'Sistem Informasi', 'Dipinjam', '2028/09/18', '2028/09/20'),
+    ('P108', '011', 'Durand', '2022', 'Sistem Informasi', 'Dipinjam', '2029/12/30', '2029/12/01'),
+    ('P109', '008', 'Simon', '2022', 'Sistem Informasi', 'Dipinjam', '2030/10/12', '2030/10/14'),
+    ('P110', '017', 'Roux', '2022', 'Sistem Informasi', 'Dipinjam', '2031/11/04', '2031/11/06');
