@@ -17,22 +17,25 @@ Tujuan dari pembuatan aplikasi perpustakaan Sistem Informasi adalah untuk memuda
 - jaspereports 6.20.6
   
 ## DESIGN GUI ##
-1. DESIGN DATA BUKU
+1. LOGIN
+   ![Screenshot (408)](https://github.com/fitriyamawadahw/PBO2023/assets/146052469/79dc0949-c6eb-4a44-a4f1-97ecd83f90bb)
+
+2. DESIGN DATA BUKU
    ![Screenshot (453)](https://github.com/fitriyamawadahw/PBO2023/assets/146052469/c26652d6-bc74-46c9-93a8-cc2b42a3fe21)
    
-2. DESIGN DATA SKRIPSI
+3. DESIGN DATA SKRIPSI
    ![Screenshot (454)](https://github.com/fitriyamawadahw/PBO2023/assets/146052469/93996eb5-1402-42e6-a39a-f641efbb5774)
    
-3. DESIGN LAPORAN DATA BUKU
+4. DESIGN LAPORAN DATA BUKU
    ![Screenshot (455)](https://github.com/fitriyamawadahw/PBO2023/assets/146052469/cfb2a8a5-e8a8-4183-b96b-43dea754fbaf)
    
-4. DESIGN LAPORAN DATA SKRIPSI
+5. DESIGN LAPORAN DATA SKRIPSI
    ![Screenshot (456)](https://github.com/fitriyamawadahw/PBO2023/assets/146052469/637f2e0b-9bb6-48dd-b9a6-4f522ca7778d)
    
-5. DESIGN PEMINJAMAN BUKU
+6. DESIGN PEMINJAMAN BUKU
     ![Screenshot (457)](https://github.com/fitriyamawadahw/PBO2023/assets/146052469/933fd34f-9112-494a-985d-04081217ef8b)
    
-6. DESIGN PEMINJAMAN SKRIPSI
+7. DESIGN PEMINJAMAN SKRIPSI
     ![Screenshot (458)](https://github.com/fitriyamawadahw/PBO2023/assets/146052469/92f0f5af-aaa7-4399-a8ab-3453211d63d6)
     
 # DESIGN REPORT
