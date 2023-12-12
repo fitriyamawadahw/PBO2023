@@ -1,6 +1,9 @@
 ## APLIKASI PERPUSTAKAAN SISTEM INFORMASI
 Pembuatan aplikasi Perpustakaan Sistem Informasi dilatarbelakangi oleh permintaan penyumbangan buku untuk pengabdian kepada program studi. Klien meminta pembuatan sebuah aplikasi yang memiliki kemampuan untuk menyimpan data buku secara efisien, melakukan perubahan dan penghapusan data dengan mudah, serta memungkinkan pembuatan laporan dari data yang tersedia. Selain itu, aplikasi juga diharapkan dapat mengelola proses peminjaman buku untuk memudahkan pengguna dalam akses dan peminjaman koleksi perpustakaan.
 
+## PERSISTENCE
+Program aplikasi ini menggunakan koneksi persistence untuk menghubungkan ke databasenya.
+
 ## TUJUAN PEMBUATAN
 Tujuan dari pembuatan aplikasi perpustakaan Sistem Informasi adalah untuk memudahkan pengguna dalam menambahkan buku dan skripsi, mengupdate data buku dan skripsi, menghapus data buku dan skripsi, melakukan peminjaman buku dan skripsi, serta mencetak laporan buku, skripsi, dan peminjaman. Dengan menggunakan aplikasi in, maka dapat memudahkan pengguna dalam mengelola sebuah perpustakaan.
 
