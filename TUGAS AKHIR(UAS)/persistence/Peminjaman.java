@@ -29,7 +29,8 @@ import javax.persistence.Table;
     @NamedQuery(name = "Peminjaman.findByProdi", query = "SELECT p FROM Peminjaman p WHERE p.prodi = :prodi"),
     @NamedQuery(name = "Peminjaman.findByStatus", query = "SELECT p FROM Peminjaman p WHERE p.status = :status"),
     @NamedQuery(name = "Peminjaman.findByTanggalpeminjaman", query = "SELECT p FROM Peminjaman p WHERE p.tanggalpeminjaman = :tanggalpeminjaman"),
-    @NamedQuery(name = "Peminjaman.findByTanggalpengembalian", query = "SELECT p FROM Peminjaman p WHERE p.tanggalpengembalian = :tanggalpengembalian")})
+    @NamedQuery(name = "Peminjaman.findByTanggalpengembalian", query = "SELECT p FROM Peminjaman p WHERE p.tanggalpengembalian = :tanggalpengembalian"),
+    @NamedQuery(name = "Peminjaman.findAllApaGitu", query = "SELECT p FROM Peminjaman p WHERE p.isbn.isbn = :isbn")})
 public class Peminjaman implements Serializable {
 
     private static final long serialVersionUID = 1L;
